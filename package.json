@@ -5,9 +5,14 @@
   "scripts": {
     "start": "openclaw gateway run",
     "onboard": "openclaw onboard --non-interactive --accept-risk",
-    "lint": "echo 0"
+    "lint": "echo 0",
+    "deploy": "wrangler deploy",
+    "preview": "wrangler dev"
   },
   "engines": {
     "node": ">=22.0.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.77.0"
   }
 }
